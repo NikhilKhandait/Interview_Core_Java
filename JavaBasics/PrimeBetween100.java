@@ -3,19 +3,16 @@ package practical_JavaBasics;
 public class PrimeBetween100 {
 	public static void main(String[] args) {
 
-		int num = 100;
+		for (int i = 1; i <= 100; i++) {
+			boolean flag = true;
 
-		boolean flag = false;
-
-		for (int i = 0; i <= 100; i++) {
-			for (int j = 2; j < num - 1; j++) {
+			for (int j = 2; j <= i - 1; j++) {
 				if (i % j == 0) {
-					flag = true;
-
+					flag = false;
 				}
 			}
 			if (flag) {
-				System.out.println("Prime" + i);
+				System.out.println("prime num :" + i);
 			}
 		}
 	}
