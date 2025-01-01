@@ -2,7 +2,7 @@ package practical_JavaBasics;
 
 public class SecondHighestInArray {
 	public static void main(String[] args) {
-		int[] num = { 3, 58, 54, 70, 12, 43, 60 };
+		int[] num = { 3, 65, 54, 70, 12, 43, 60 };
 		int count = 0;
 		int temp = 0;
 

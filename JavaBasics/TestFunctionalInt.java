@@ -12,7 +12,11 @@ public class TestFunctionalInt implements FunctionalInt {
 
 		int a = 4;
 		int b = 3;
-		
+
+		/*
+		 * f.add(a, b);//call default 
+		 * FunctionalInt.sub(a, b);//call static
+		 */
 		System.out.println(f.doStuff(a, b));
 
 	}

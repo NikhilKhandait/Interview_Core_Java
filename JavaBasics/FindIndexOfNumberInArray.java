@@ -4,7 +4,7 @@ public class FindIndexOfNumberInArray {
 
 	public static void main(String[] args) {
 		
-		int [] arr = {3,4,6,12,43,22,66,90};
+		int [] arr = {3,4,6,12,43,22,43,66,90};
 		
 		int a = 43;
 		int res = 0;

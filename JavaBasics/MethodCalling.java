@@ -2,7 +2,7 @@ package practical_JavaBasics;
 
 public class MethodCalling {
 
-	public static int doStuff(int[] a, int b) {
+	 static int doStuff(int[] a, int b) {
 		for (int i = 0; i < a.length; i++) {
 			if (a[i] == b) {
 				return i;

@@ -7,12 +7,10 @@ public class Factorial {
 		int a = 5;
 
 		int res = 1;
-
 		while (a > 0) {
 
 			res = res * a;
 			a--;
-
 		}
 		System.out.println(res);
 	}

@@ -3,8 +3,8 @@ package practical_JavaBasics;
 public class MissingNo {
 	public static void main(String[] args) {
 
-		int[] a = { 2, 4, 0, 7, 1 };
-		int[] b = { 0, 4, 6, 9, };
+		int[] a = { 2, 4, 0};
+		int[] b = { 0, 4, 6, 9,};
 
 		for (int i = 0; i < a.length; i++) {
 			boolean flag = false;
