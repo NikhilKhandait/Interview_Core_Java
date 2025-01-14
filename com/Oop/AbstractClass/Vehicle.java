@@ -1,4 +1,4 @@
-package com.oop.Abstractt;
+package com.oop.AbstractClass;
 
 public abstract class Vehicle {
 
@@ -10,11 +10,13 @@ public abstract class Vehicle {
 		this.name = name;
 	}
 	
+	
+	
 	 abstract void start();
 	
 	 public void getInfo() {
 		 System.out.println("Vehicle speed is : " + speed);
-		 System.out.println("Vehicle name is : " + name);
+		 System.out.println("Vehicle(car) name is : " + name);
 	 }
 	
 

@@ -1,4 +1,4 @@
-package com.oop.Interface;
+package com.oop.Interfacee;
 
 public interface InterfaceTwo {
 
