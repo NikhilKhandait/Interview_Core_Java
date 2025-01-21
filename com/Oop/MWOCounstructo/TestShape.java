@@ -2,7 +2,10 @@ package com.oop.MWOCounstructo;
 
 public class TestShape {
 	
-	/* This is the test class of method without constructor */
+	/* This is the test class of method without constructor 
+	 * this class question is : Why us use typecasting here ?
+	 * 
+	 * */
 	
 	public static void main(String[] args) {
 
@@ -10,7 +13,7 @@ public class TestShape {
 		s[0] = new Circle();
 		s[1] = new Rectangle();
 
-		Circle c = (Circle) s[0];
+		Circle c = (Circle)s[0];
 		c.setRadius(5);
 
 		Rectangle r = (Rectangle) s[1];
@@ -25,8 +28,8 @@ public class TestShape {
 
 	public static double Area(Shape[] s) {
 		double totalArea = 0;
-		for (int i = 0; i < s.length; i++) {
-			totalArea = totalArea + s[i].area();
+		for (Shape s1 : s) {
+			totalArea += s1.area();
 		}
 
 		return totalArea;

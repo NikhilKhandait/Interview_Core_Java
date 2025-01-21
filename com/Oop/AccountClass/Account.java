@@ -1,8 +1,12 @@
 package com.oop.AccountClass;
 
+/**
+ * @author Nikhil
+ *
+ */
 public class Account {
 
-	public double balance;
+	private double balance;
 
 	public double getBalance() {
 		return balance;

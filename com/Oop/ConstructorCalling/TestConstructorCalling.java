@@ -16,7 +16,7 @@ public class TestConstructorCalling extends ConstructorCalling {
 
 	public static void main(String[] args) {
 		TestConstructorCalling t = new TestConstructorCalling(1, "nikhil", "indore");
-		System.out.println("complete ....4 :" +" "+ t.id +" "+ t.name +" "+ t.address);
+		System.out.println("complete ....4" + t.id + t.name + t.address);
 	}
 
 }

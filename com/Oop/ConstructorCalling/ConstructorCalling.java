@@ -1,4 +1,4 @@
-	
+
 package com.oop.ConstructorCalling;
 
 public class ConstructorCalling {
@@ -14,8 +14,8 @@ public class ConstructorCalling {
 	}
 
 	public ConstructorCalling(int id, String name, String address) {
-		this(id,name);
-		
+		this(id, name);
+
 		this.address = address;
 		System.out.println("three param. const. call...2");
 	}

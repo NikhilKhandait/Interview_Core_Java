@@ -1,5 +1,9 @@
 package com.oop.BussinesMan;
 
+/**
+ * @author Nikhil
+ *
+ */
 public class TestBussinesMan implements RichMan, SocialWorkers {
 
 	@Override
@@ -14,7 +18,7 @@ public class TestBussinesMan implements RichMan, SocialWorkers {
 
 	@Override
 	public void party() {
-		System.out.println("RichMan do  party");
+		System.out.println("RichMan do  party...!!");
 	}
 
 	@Override

@@ -3,7 +3,7 @@ package com.oop.MWOCounstructo;
 public class Circle extends Shape {
 
 	public double radius;
-	public static double PI = 3.14;
+	public static final double PI = 3.14;
 
 	public double getRadius() {
 		return radius;
