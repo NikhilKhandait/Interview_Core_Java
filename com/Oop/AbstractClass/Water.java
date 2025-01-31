@@ -8,6 +8,7 @@ public abstract class Water {
 
 	private int temp;
 	private String state;
+	
 
 	public Water(int temp, String state) {
 		this.temp = temp;

@@ -14,7 +14,7 @@ public class Customer implements Cloneable {
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
 		Customer c = (Customer)super.clone();
-		c.no = (Account) no;
+		c.no = (Account) no.clone();
 		return c;
 	}
 

@@ -1,5 +1,9 @@
 package com.oop.BussinesMan;
 
+/**
+ * @author Nikhil
+ *
+ */
 public interface RichMan {
 
 	public void earnMoney(double money);

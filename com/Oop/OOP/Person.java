@@ -1,4 +1,4 @@
-package com.oop.PersonClass;
+package com.oop.OOP;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
