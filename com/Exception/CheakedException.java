@@ -9,6 +9,8 @@ public class CheakedException {
 			System.out.println(e);
 
 		}
+
+		// manager();
 	}
 
 	public static void manager() throws Exception {

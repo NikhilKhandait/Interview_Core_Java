@@ -1,6 +1,9 @@
 package com.Exception.LoginException;
 
 public class TestLogin {
+
+	// custom cheaked exception//
+
 	public void login(String userName, String pass) throws LoginExceptions {
 
 		String userN = "nikhil";
@@ -19,7 +22,7 @@ public class TestLogin {
 
 		TestLogin t = new TestLogin();
 		try {
-			t.login("abcs", "321");
+			t.login("nikhil", "321");
 		} catch (LoginExceptions e) {
 			System.out.println(e.getMessage());
 		}

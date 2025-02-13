@@ -9,11 +9,9 @@ public class UncheckedException {
 	}
 
 	private static void dad() {
-		try {
-			mom();
-		} catch (RuntimeException e) {
-			System.out.println(e);
-		}
+
+		mom();
+
 	}
 
 	private static void mom() {
