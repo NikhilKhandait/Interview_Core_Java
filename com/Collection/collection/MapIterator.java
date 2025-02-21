@@ -1,4 +1,4 @@
-package com.Collection;
+package com.collection;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,25 +17,26 @@ public class MapIterator {
 		m.put(4, null);
 
 		/* all entries thar we put key/values */
-		for(Object o : m.entrySet()) {
+		for (Object o : m.entrySet()) {
 			System.out.println(o);
 		}
-
+		System.out.println("-----------------------");
 		/* for values only....one...two...three...... */
-//		for (Object O : m.values()) {
-//			System.out.println(O);
-//		}
+		for (Object O : m.values()) {
+			System.out.println(O);
+		}
+		System.out.println("-----------------------");
 
 		/* for keys only....1.2.3.4.5... */
-//		for (Object o1 : m.keySet()) {
-//			System.out.println(o1);
-//		}
-//		
-//		System.out.println("-----------------------");
-//		
-//		for (Map.Entry<Integer, String> s : m.entrySet()) {
-//			System.out.println(s.getKey() + " " + s.getValue());
-//		}
+		for (Object o1 : m.keySet()) {
+			System.out.println(o1);
+		}
+
+		System.out.println("-----------------------");
+
+		for (Map.Entry<Integer, String> s : m.entrySet()) {
+			System.out.println(s.getKey() + " " + s.getValue());
+		}
 
 	}
 }

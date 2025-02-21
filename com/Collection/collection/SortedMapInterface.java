@@ -1,4 +1,4 @@
-package com.Collection;
+package com.collection;
 
 import java.util.SortedMap;
 import java.util.TreeMap;
@@ -14,6 +14,8 @@ public class SortedMapInterface {
 		sm.put(4, "yas");
 		sm.put(5, "hdep");
 
+		System.out.println(sm.keySet());
+		System.out.println(sm.values());
 		System.out.println("FirstKey :" + sm.firstKey());
 		System.out.println("LastKey :" + sm.lastKey());
 		System.out.println("HeadMap :" + sm.headMap(4));// earlier [>]
