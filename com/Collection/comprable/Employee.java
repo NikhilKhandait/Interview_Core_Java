@@ -14,32 +14,41 @@ public class Employee implements Comparable<Employee> {
 		return id;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public String getName() {
+		return name;
 	}
 
-	// we use this method but sir says give with another type so try below method
+// we use this method but sir says give with another type so try below method
 	@Override
 	public int compareTo(Employee o) {
 		if (this.id > o.getId()) {
-			return -1;
-		}
-		if (this.id < o.getId()) {
 			return 1;
 		}
+		if (this.id < o.getId()) {
+			return -1;
+		}
+//		if (this.id == o.getId()) {
+//			if (this.name.compareTo(o.getName()) > 0) {
+//				return 1;
+//			}
+//	}
+		return this.name.compareTo(o.getName());
 
-		return 0;
 	}
 
 	@Override
 	public String toString() {
-		
+
 		return id + ":" + name;
 	}
 
 //	@Override
 //	public int compareTo(Employee o) {
-//		return Integer.compare(this.id, o.getId());
+//		 int id = Integer.compare(this.id, o.getId());
+//		if (this.id == o.getId()) {
+//			return this.name.compareTo(o.getName());
+//		}
+//		return id;
 //	}
 
 }
